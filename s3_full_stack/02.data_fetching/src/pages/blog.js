@@ -1,11 +1,9 @@
-// s3_full_stack/02.data_fetching/pages/blog.js
 import React from "react";
 
 export default function Blogs({ posts, time }) {
   return (
     <div style={{ fontFamily: "sans-serif", padding: "20px" }}>
-      <h1>Blog List (ISR Example)</h1>
-      <p>Page generated at: {time}</p>
+
       <ul>
         {posts.slice(0, 5).map((post) => (
           <li key={post.id}>
@@ -14,7 +12,7 @@ export default function Blogs({ posts, time }) {
         ))}
       </ul>
       <p>
-        (This page will revalidate every <strong>5 seconds</strong>)
+        (This page will revalidate every <strong>30 seconds</strong>)
       </p>
     </div>
   );
@@ -29,6 +27,6 @@ export async function getStaticProps() {
       posts,
       time: new Date().toLocaleTimeString(),
     },
-    revalidate: 5, // ISR interval
+    revalidate: 30, // ISR interval
   };
 }

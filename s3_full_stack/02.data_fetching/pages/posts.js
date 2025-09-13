@@ -1,3 +1,4 @@
+// s3_full_stack/02.data_fetching/pages/posts.js
 import React from "react";
 
 // This function runs at build time

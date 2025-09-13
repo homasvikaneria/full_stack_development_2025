@@ -1,3 +1,4 @@
+// s3_full_stack/02.data_fetching/pages/csr.js
 "use client"; // Required in Next.js 13+ App Router for client components
 
 import { useEffect, useState } from "react";

@@ -1,3 +1,4 @@
+// s3_full_stack/02.data_fetching/pages/ssr-posts.js
 // pages/ssr-posts.js
 
 import React from "react";
