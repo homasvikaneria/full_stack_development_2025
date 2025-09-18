@@ -1,9 +1,10 @@
+// full_stack_development_2025/s3_full_stack/03.testing/src/app/lib/mongodb.js
 // 03.testing/src/app/lib/mongodb.js
 // lib/mongodb.js
 import { MongoClient } from 'mongodb';
 
 <<<<<<< HEAD
-const MONGODB_URI = 'mongodb+srv://homasvikaneriacg_db_user:hXuiEBdZTx5BLR0S@sample.rp4qyan.mongodb.net/test?retryWrites=true&w=majority';
+const MONGODB_URI = 'your mongo uri';
 =======
 const MONGODB_URI = 'Your Mongodb connection url';
 >>>>>>> 4c4359b4c7c8ed7d0f0d9782e74bd0b293306187
