@@ -1,4 +1,4 @@
-// app/api/companies/route.js
+// 03.testing/src/app/api/companies/route.js
 import clientPromise from '../../lib/mongodb';
 import { NextResponse } from 'next/server';
 
@@ -12,8 +12,15 @@ export async function GET(request) {
     const skill = url.searchParams.get('skill');
 
     const client = await clientPromise;
+<<<<<<< HEAD
+
+    // Use the correct DB and collection
+    const db = client.db('test'); // explicitly select the "test" database
+    const coll = db.collection('companies'); // explicitly select the "companies" collection
+=======
     const db = client.db("workbook");          
     const coll = db.collection("companies");  
+>>>>>>> 4c4359b4c7c8ed7d0f0d9782e74bd0b293306187
 
     const filter = {};
     if (name) filter.name = { $regex: new RegExp(name, 'i') };

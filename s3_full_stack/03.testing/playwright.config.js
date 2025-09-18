@@ -1,3 +1,4 @@
+// 03.testing/playwright.config.js
 // playwright.config.js
 const { defineConfig } = require('@playwright/test');
 
