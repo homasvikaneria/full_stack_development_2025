@@ -3,7 +3,7 @@
 // lib/mongodb.js
 import { MongoClient } from 'mongodb';
 
-const MONGODB_URI = 'Your Mongodb connection url';
+const MONGODB_URI = 'mongodb+srv://homasvikaneriacg_db_user:hXuiEBdZTx5BLR0S@sample.rp4qyan.mongodb.net/test?retryWrites=true&w=majority';
 
 if (!MONGODB_URI) {
   throw new Error('MONGODB_URI is required.');

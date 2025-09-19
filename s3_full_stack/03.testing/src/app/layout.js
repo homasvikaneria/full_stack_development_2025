@@ -1,3 +1,4 @@
+// full_stack_development_2025/s3_full_stack/03.testing/src/app/layout.js
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 

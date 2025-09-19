@@ -1,3 +1,4 @@
+// s3_full_stack/03.testing/src/app/page.js
 import Image from "next/image";
 
 export default function Home() {
